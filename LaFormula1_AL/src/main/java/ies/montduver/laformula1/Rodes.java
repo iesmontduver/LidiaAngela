@@ -38,30 +38,31 @@ public class Rodes {
 
     /* TO DO: Tornarà un String segons el valor (int) de l’atribut tipo_neumatic*/
     public String getTipo_neumatic() {
-        if (tipo_neumatic == 1) {
-            String tipo_neumatic = "Blanes";
-
+        
+        String tiporodes; 
+        
+        switch (tipo_neumatic) {
+            case 1: 
+                tiporodes = "BLANES"; 
+                break; 
+            case 2: 
+                tiporodes = "MITGES";
+                break; 
+            case 3: 
+                tiporodes = "DURES"; 
+                break;
+            case 4: 
+                tiporodes = "DE PUTJA";
+                break;
+            case 5: 
+                tiporodes = "DE PUTJA EXTREMA";
+                break;
+            default: 
+                tiporodes = "DESCONEGUDES";
+                
         }
-        if (tipo_neumatic == 2) {
-            String tipo_neumatic = "Mitjes";
 
-        }
-        if (tipo_neumatic == 3) {
-            String tipo_neumatic = "Dures";
-
-        }
-        if (tipo_neumatic == 4) {
-            String tipo_neumatic = "de Plutja";
-
-        }
-        if (tipo_neumatic == 5) {
-            String tipo_neumatic = "de Pluja extrema";
-
-        } else {
-            String tipo_neumatic = "Desconegudes";
-        }
-
-        return "";
+        return tiporodes;
     }
 
     public void setTipo_neumatic(int tipo_neumatic) {
