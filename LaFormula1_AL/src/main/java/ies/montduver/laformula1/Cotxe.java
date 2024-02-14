@@ -48,6 +48,11 @@ public class Cotxe {
         this.tempsCarrera = tempsCarrera;
     }
 
+    public Rodes getRodes() {
+        return rodes;
+    }
+    
+
     public void ferEixida() {
 
         int n = (int) (Math.random() * 3) + 1;

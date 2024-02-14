@@ -73,6 +73,12 @@ public class Xasis {
     public void setAmple(double ample) {
         this.ample = ample;
     }
+
+    @Override
+    public String toString() {
+        return "Xasis{" + '}';
+    }
+    
     
     
 }
