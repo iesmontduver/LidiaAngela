@@ -17,7 +17,7 @@ public class Circuit {
     int numVoltes;
     int record;
 
-    public Circuit(String nombre, String pais, String ciutat, double longuitut, int numVoltes, int record) {
+    public Circuit(String nombre, String pais, String ciutat, double longuitut, int numVoltes) {
         this.nombre = nombre;
         this.pais = pais;
         this.ciutat = ciutat;

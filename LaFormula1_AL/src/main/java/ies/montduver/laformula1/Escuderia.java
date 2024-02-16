@@ -12,8 +12,14 @@ public class Escuderia {
     String nom;
     double pressupost; 
     int punts; 
+    String getEscuderia;
 
-    public Escuderia() {
+    public Escuderia(String nom, double pressupost) {
+        this.nom = nom;
+        this.pressupost = pressupost;
+        this.punts = punts;
+    }
+     {
     }
 
     public String getNom() {

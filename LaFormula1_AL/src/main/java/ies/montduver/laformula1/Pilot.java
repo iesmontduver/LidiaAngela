@@ -15,11 +15,12 @@ public class Pilot {
     int punts; 
     double sou;
 
-    public Pilot(String nom, Escuderia escuderia, int numero, int punts) {
+    public Pilot(String nom, Escuderia escuderia, int numero, int punts,double sou ) {
         this.nom = nom;
         this.escuderia = escuderia;
         this.numero = numero;
         this.punts = punts;
+        this.sou = sou;
     }
 
     public String getNom() {
