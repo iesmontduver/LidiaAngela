@@ -146,15 +146,15 @@ public class Formula1 {
 
         //Crear 10 pilots; 2 per escuderia
         Pilot Norris = new Pilot("L. Norris", McLaren, 1,0, 1000800);
-        Pilot Piastri = new Pilot("O. Piastri", McLaren, 2,2, 1000500);
-        Pilot Verstappen = new Pilot("M. Verstappen", RedBull, 3,4, 1007000);
-        Pilot Pérez = new Pilot("S. Pérez", RedBull, 4,1, 1050000);
+        Pilot Piastri = new Pilot("O. Piastri", McLaren, 2,0, 1000500);
+        Pilot Verstappen = new Pilot("M. Verstappen", RedBull, 0,4, 1007000);
+        Pilot Pérez = new Pilot("S. Pérez", RedBull, 4,0, 1050000);
         Pilot Leclerc = new Pilot("C. Leclerc", Ferrari, 5,0,1070000);
-        Pilot Sainz = new Pilot("C. Sainz", Ferrari, 6,3,1740000);
-        Pilot Alonso = new Pilot("F. Alonso", AstonMartin, 7,6,1000007);
-        Pilot Stroll = new Pilot("L. Stroll", AstonMartin, 8,4,10041400);
-        Pilot Russell = new Pilot("G. Russell", Mercedes, 9,3,1009000);
-        Pilot Hamilton = new Pilot("L. Hamilton", Mercedes, 10,4,1630000);
+        Pilot Sainz = new Pilot("C. Sainz", Ferrari, 6,0,1740000);
+        Pilot Alonso = new Pilot("F. Alonso", AstonMartin, 0,0,1000007);
+        Pilot Stroll = new Pilot("L. Stroll", AstonMartin, 8,0,10041400);
+        Pilot Russell = new Pilot("G. Russell", Mercedes, 9,0,1009000);
+        Pilot Hamilton = new Pilot("L. Hamilton", Mercedes, 10,0,1630000);
 
         Cotxe c1 = new Cotxe(McLaren, new Rodes("Michelín"), new motor(), new Xasis(McLaren.getNom(), "F1", "Blanco", 798, 2,1));
         cotxes.add(c1);
