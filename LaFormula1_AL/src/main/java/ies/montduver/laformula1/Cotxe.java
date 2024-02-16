@@ -71,12 +71,12 @@ public class Cotxe {
     }
 
     public void arrancarMotors() {
-        System.out.println(pilot + " ha arrancat el seu motor " + escuderia + " montat amb rodes " + rodes);
+        System.out.println(pilot.getNom() + " ha arrancat el seu motor " + escuderia.getNom() + " montat amb rodes " + rodes.getTipo_neumatic());
         tempsCarrera = 0.0;
     }
 
     public void accident() {
-        System.out.println(pilot + " ha tingut un accident i ha d'abandonar la carrera. ");
+        System.out.println(pilot.getNom() + " ha tingut un accident i ha d'abandonar la carrera. ");
         tempsCarrera = 0.0;
     }
 
