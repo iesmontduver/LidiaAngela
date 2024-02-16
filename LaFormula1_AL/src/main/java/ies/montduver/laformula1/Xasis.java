@@ -17,7 +17,7 @@ public class Xasis {
     double llarg;
     double ample;
 
-    public Xasis(String marca, String modelo, String color, double pes, double llarg, double ample) {
+    public Xasis(String marca, String modelo, String color, double pes, double llarg, double ample ) {
         this.marca = marca;
         this.modelo = modelo;
         this.color = color;
