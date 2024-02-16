@@ -36,7 +36,7 @@ public class Rodes {
         this.marca = marca;
     }
 
-    /* TO DO: Tornarà un String segons el valor (int) de l’atribut tipo_neumatic*/
+   
     public String getTipo_neumatic() {
         
         String tiporodes; 
